@@ -7,13 +7,13 @@ const Footer = () => {
         <div className="flex-container">
 
             <div>
-                <a href="">
+                <a href="https://rs.school/js/">
                     <img className="resize" src="https://rs.school/images/rs_school_js.svg" alt="rs school"/>
                 </a>
             </div>
 
             <div>
-                <a href="">GitHub</a>
+                <a href="https://github.com/Danila-cmd">GitHub</a>
             </div>
 
             <div>
