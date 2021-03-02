@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="995305da-d617-4952-880d-a20357234535" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/models/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Game/img/bgMain.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Sound/createGamerButton.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/CreateGamer.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/CreateGamer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Game/componentsForGame/style/StyledTetris.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Game/componentsForGame/style/StyledTetris.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/MainMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/MainMenu.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -35,8 +35,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/src/components/Game/img" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/components/Game/img" />
+      <recent name="$PROJECT_DIR$/frontend/src/components/Sound" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/public" />
+      <recent name="$PROJECT_DIR$/frontend/src/components/Game/img" />
+      <recent name="$PROJECT_DIR$/frontend/src/components/Game" />
+      <recent name="$PROJECT_DIR$/frontend/src/components/Game/font" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -46,7 +60,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614423394770</updated>
-      <workItem from="1614423395932" duration="5414000" />
+      <workItem from="1614423395932" duration="18576000" />
+      <workItem from="1614502294156" duration="3745000" />
+      <workItem from="1614613330701" duration="5449000" />
     </task>
     <servers />
   </component>
@@ -63,5 +79,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

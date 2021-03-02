@@ -20,7 +20,10 @@ const MainMenu = () => {
                         <Link to="/game" className="btn btn-primary disabled" disabled>ИГРАТЬ</Link>
                     </div>
                     <div className="buttonToPlay">
-                        <Link to="/createGamer" className="btn btn-dark">СОЗДАТЬ ИГРОКА</Link>
+                        <Link to="/createGamer"
+                              className="btn btn-dark"
+                              onClick={play}
+                        >СОЗДАТЬ ИГРОКА</Link>
                     </div>
                 </div>
             ) : (
