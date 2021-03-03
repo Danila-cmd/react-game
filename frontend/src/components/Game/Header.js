@@ -1,5 +1,6 @@
 import React from 'react'
 import {Navbar, Form, Nav} from "react-bootstrap";
+import MyModal from "./MyModal";
 
 const Header = () => {
 
@@ -11,7 +12,7 @@ const Header = () => {
                 <Nav className="mr-auto">
                 </Nav>
                 <Form inline>
-                    <div>Model</div>
+                    <MyModal/>
                 </Form>
             </Navbar.Collapse>
         </Navbar>
