@@ -14,8 +14,12 @@ import axios from "axios";
 
 import {Link} from "react-scroll"
 
+import useSound from "use-sound";
+import soundGameOver from "../../Sound/gameOver.mp3";
 
 const Tetris = () => {
+
+    const [playGameOver] = useSound(soundGameOver)
 
     const [dropTime, setDropTime] = useState(null);
     const [gameOver, setGameOver] = useState(false);
@@ -62,6 +66,8 @@ const Tetris = () => {
             updatePlayerPos({x: 0, y: 1, collided: false})
         } else {
             if (player.pos.y < 1) {
+
+                playGameOver()
 
                 unblockScroll()
 
